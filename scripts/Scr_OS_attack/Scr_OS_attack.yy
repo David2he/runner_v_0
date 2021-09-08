@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Scr_first_attack",
+  "name": "Scr_OS_attack",
   "tags": [],
   "resourceType": "GMScript",
 }

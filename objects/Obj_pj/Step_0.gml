@@ -1,11 +1,11 @@
-if(close_against_player){
-	start_fight = true;
+if(close_against_player && instance_exists(Obj_monster)){
+	if((Obj_monster.hp <= damage) && first_attack){
+		Scr_OS_attack();
+	} else{
+		Scr_attack();
+	}
+} else {
+		Scr_handle_running(false);
 }
 
-if(start_fight){
-	Scr_first_attack(Obj_monster.hp, damage);
-}
-
-//show_debug_message("frame :" + string(Obj_pj.image_index));
-//show_debug_message(Obj_pj.reset_frame);
-
+	

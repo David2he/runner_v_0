@@ -10,13 +10,14 @@ function Scr_handle_running(){
 		layer_hspeed("Background_03", 0);
 		layer_hspeed("Background_04", 0);
 		layer_hspeed("Background_05", 0);
+		show_debug_message("stop");
 	}else {
-		Obj_pj.sprite_index = Spr_player_run;
 		layer_hspeed("Background_00", -8);
 		layer_hspeed("Background_01", -4);
 		layer_hspeed("Background_02", -2);
 		layer_hspeed("Background_03", -1);
 		layer_hspeed("Background_04", -0.5);
 		layer_hspeed("Background_05", -0.25);
+		show_debug_message("true");
 	}
 }
