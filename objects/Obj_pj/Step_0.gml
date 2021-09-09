@@ -8,4 +8,5 @@ if(close_against_player && instance_exists(Obj_monster)){
 		Scr_handle_running(false);
 }
 
+
 	

@@ -1,5 +1,5 @@
 move_speed = 0;
-damage = 1;
+damage = 2;
 life = 100;
 
 image_speed = 1;
