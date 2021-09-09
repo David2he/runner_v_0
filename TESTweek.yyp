@@ -13,7 +13,7 @@
     {"id":{"name":"Spr_player_ex","path":"sprites/Spr_player_ex/Spr_player_ex.yy",},"order":5,},
     {"id":{"name":"Scr_handle_running","path":"scripts/Scr_handle_running/Scr_handle_running.yy",},"order":0,},
     {"id":{"name":"Spr_player_attack_transition","path":"sprites/Spr_player_attack_transition/Spr_player_attack_transition.yy",},"order":2,},
-    {"id":{"name":"Scr_OS_attack","path":"scripts/Scr_OS_attack/Scr_OS_attack.yy",},"order":2,},
+    {"id":{"name":"Scr_handle_frame_player","path":"scripts/Scr_handle_frame_player/Scr_handle_frame_player.yy",},"order":5,},
     {"id":{"name":"Spr_bg_desert_03","path":"sprites/Spr_bg_desert_03/Spr_bg_desert_03.yy",},"order":2,},
     {"id":{"name":"Spr_Health_bar_layout","path":"sprites/Spr_Health_bar_layout/Spr_Health_bar_layout.yy",},"order":0,},
     {"id":{"name":"Spr_player_attack_run","path":"sprites/Spr_player_attack_run/Spr_player_attack_run.yy",},"order":1,},
