@@ -6,6 +6,6 @@ function Scr_handle_Damage(){
 	target.hp -= dammage;
 	
 	if(dammage >= target.hp){
-		target.is_dead = true;
+		//target.is_dead = true;
 	}
 }
