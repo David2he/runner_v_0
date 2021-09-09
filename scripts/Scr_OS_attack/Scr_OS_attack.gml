@@ -11,7 +11,7 @@ function Scr_OS_attack(){
 		}
 		if(Obj_pj.image_index >= image_number-1){
 			Obj_pj.close_against_player = false;
-			instance_destroy(Obj_monster);
+			Scr_handle_Damage(Obj_monster.hp, Obj_monster.hp);
 			Obj_pj.sprite_index = Spr_player_run;
 		}
 	#endregion
