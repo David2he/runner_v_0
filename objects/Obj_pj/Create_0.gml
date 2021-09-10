@@ -1,20 +1,13 @@
 
-damage = 3;
+damage = 20;
 close_against_player = false;
 first_attack = true;
 reset_frame = false;
+attack_transition = false;
+
+hits_left = 0;
+combo = 0;
 
 image_speed = 1;
-
-
-
-can_attack_1 = true;
-can_attack_2 = true;
-can_attack_3 = true;
-can_attack_4 = true;
-
-
-
-
 
 Scr_handle_running(true);
