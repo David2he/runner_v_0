@@ -6,6 +6,8 @@ function Scr_handle_Damage(){
 	target.hp -= dammage;
 	
 	if(dammage >= target.hp){
-		//target.is_dead = true;
+		combo = 0;
+		Obj_pj.close_against_player = false;
+		target.is_dead = true;
 	}
 }
