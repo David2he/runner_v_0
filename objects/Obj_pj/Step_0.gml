@@ -22,9 +22,3 @@ if(instance_exists(Obj_monster) && close_against_player) {
 	Scr_handle_running(false);
 }
 
-if(image_index > image_number-1){
-	reset_frame = true;
-	if(combo == 1){
-		combo = 2
-	}
-}
