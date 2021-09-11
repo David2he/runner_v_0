@@ -4,10 +4,11 @@ function Scr_attack(){
 	var hit_frames = argument[0];
 	var hits_left_arg = argument[1];
 	var sprite = argument[2];
-	var actual_combo = argument[3];
-	var next_combo = argument[4];
+	var next_combo = argument[3];
+	var actual_combo = argument[4];
 
 	if(reset_frame){
+		show_debug_message("RESET")
 		Scr_handle_frame_player(Obj_pj, 0, sprite);
 		hits_left = hits_left_arg;
 	} 
@@ -19,11 +20,9 @@ function Scr_attack(){
 			hits_left[currentDamageFrame] --;
 		}
 	}
-	
+
 	if(image_index > image_number-1){
 		 reset_frame = true;
-		if(combo == 1){
-			combo = 2
-		}
+			combo = next_combo
 	}
 }
