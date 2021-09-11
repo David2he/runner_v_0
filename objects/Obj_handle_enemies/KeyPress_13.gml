@@ -1,2 +1,2 @@
-instance_create_depth(800, 800, -1, Obj_monster);
+instance_create_depth(1100, 800, -1, Obj_monster);
 

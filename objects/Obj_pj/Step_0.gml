@@ -5,18 +5,18 @@ if(instance_exists(Obj_monster) && close_against_player) {
 
 	switch(combo){
 		case 0:
-			Scr_attack(damage, Obj_monster.max_hp, 5, [[1,2]], [1], Spr_player_attack_run);
+			Scr_attack([[1,2]], [1], Spr_player_attack_run);
 			break;
 		case 1:
-			Scr_attack(damage, Obj_monster.max_hp, 5, [[2,3], [7,8]], [1,1], Spr_player_attack_transition);
+			Scr_attack([[2,3], [7,8]], [1,1], Spr_player_attack_transition);
 			Scr_handle_running(true);
 			break;
 		case 2:
-			Scr_attack(damage, Obj_monster.max_hp, 5, [[2,3], [7,8]], [1,1], Spr_player_attack);
+			Scr_attack([[2,3], [7,8]], [1,1], Spr_player_attack);
 			break;
 	}
 
-
+	
 	
 } else if (reset_frame){
 	Scr_handle_running(false);

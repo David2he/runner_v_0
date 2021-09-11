@@ -11,3 +11,5 @@ combo = 0;
 image_speed = 1;
 
 Scr_handle_running(true);
+
+leaveTHIS = false;
