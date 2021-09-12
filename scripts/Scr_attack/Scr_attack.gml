@@ -5,7 +5,6 @@ function Scr_attack(){
 	var hits_left_arg = argument[1];
 	var sprite = argument[2];
 	var next_combo = argument[3];
-	var actual_combo = argument[4];
 
 	if(reset_frame){
 		show_debug_message("RESET")
