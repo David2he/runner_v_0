@@ -91,7 +91,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"93505bb5-f645-4499-a109-b2c0842fbc1d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"93505bb5-f645-4499-a109-b2c0842fbc1d","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
