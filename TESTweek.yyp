@@ -8,7 +8,6 @@
     {"id":{"name":"Font_damage","path":"fonts/Font_damage/Font_damage.yy",},"order":0,},
     {"id":{"name":"Spr_player_run","path":"sprites/Spr_player_run/Spr_player_run.yy",},"order":0,},
     {"id":{"name":"Spr_Health_bar_fill","path":"sprites/Spr_Health_bar_fill/Spr_Health_bar_fill.yy",},"order":1,},
-    {"id":{"name":"test","path":"sprites/test/test.yy",},"order":7,},
     {"id":{"name":"Spr_player_idle","path":"sprites/Spr_player_idle/Spr_player_idle.yy",},"order":6,},
     {"id":{"name":"Scr_display_damage","path":"scripts/Scr_display_damage/Scr_display_damage.yy",},"order":6,},
     {"id":{"name":"Scr_attack","path":"scripts/Scr_attack/Scr_attack.yy",},"order":3,},
