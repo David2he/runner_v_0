@@ -5,7 +5,7 @@ function Scr_handle_Damage(){
 	
 	
 	target.hp -= dammage;
-	Scr_dispay_damage(dammage, target, c_red);
+	Scr_display_damage(dammage, target, c_red);
 	
 	if(target.hp <= 0){
 		combo = 0;

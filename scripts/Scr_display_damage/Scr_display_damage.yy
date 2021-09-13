@@ -6,7 +6,7 @@
     "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Scr_dispay_damage",
+  "name": "Scr_display_damage",
   "tags": [],
   "resourceType": "GMScript",
 }

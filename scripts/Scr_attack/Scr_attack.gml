@@ -7,15 +7,15 @@ function Scr_attack(){
 	var next_combo = argument[3];
 
 	if(reset_frame){
-		show_debug_message("RESET")
+		//show_debug_message("RESET")
 		Scr_handle_frame_player(Obj_pj, 0, sprite);
 		hits_left = hits_left_arg;
 	} 
 	
 	 for(var currentDamageFrame = 0; currentDamageFrame < array_length(hit_frames); currentDamageFrame++){
 		if((image_index > hit_frames[currentDamageFrame][0] && image_index < hit_frames[currentDamageFrame][1]) &&(hits_left[currentDamageFrame]>0)){
+			show_debug_message(combo);
 			Scr_handle_Damage(Obj_monster, Obj_pj.damage);
-			show_debug_message("saucisse");
 			hits_left[currentDamageFrame] --;
 		}
 	}

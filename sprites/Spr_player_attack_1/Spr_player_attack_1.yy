@@ -85,8 +85,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "ATTACK",
+    "path": "folders/Sprites/Player/ATTACK.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_player_attack_1",
