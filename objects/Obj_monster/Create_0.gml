@@ -1,9 +1,7 @@
 image_xscale =-1;
-close_against_player = false;
+Obj_pj.reset_frame = true;
+//max_hp = irandom_range(1, 4);
+max_hp = 10;
+hp = max_hp;
 is_dead = false;
-Obj_pj.reset_frame = 1;
-hp = 10;
-attack = 5;
 
-
-//hentai david
