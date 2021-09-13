@@ -1,1 +1,1 @@
-is_disappearing = true;
+down_animation = true;
