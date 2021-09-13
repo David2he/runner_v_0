@@ -27,6 +27,7 @@
     {"compositeImage":{"FrameId":{"name":"eb8cd63d-20bf-44f4-a55a-a23526378ebf","path":"sprites/Spr_Health_bar_fill/Spr_Health_bar_fill.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"eb8cd63d-20bf-44f4-a55a-a23526378ebf","path":"sprites/Spr_Health_bar_fill/Spr_Health_bar_fill.yy",},"LayerId":{"name":"ec7b54fe-4bf8-4e02-85cd-a124d17b274e","path":"sprites/Spr_Health_bar_fill/Spr_Health_bar_fill.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"eb8cd63d-20bf-44f4-a55a-a23526378ebf","path":"sprites/Spr_Health_bar_fill/Spr_Health_bar_fill.yy",},"LayerId":{"name":"44f96002-cd67-45fc-9221-6908369166cb","path":"sprites/Spr_Health_bar_fill/Spr_Health_bar_fill.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"eb8cd63d-20bf-44f4-a55a-a23526378ebf","path":"sprites/Spr_Health_bar_fill/Spr_Health_bar_fill.yy",},"LayerId":{"name":"8470115f-deee-4382-81b8-aad7cb4b0a5e","path":"sprites/Spr_Health_bar_fill/Spr_Health_bar_fill.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_Health_bar_fill","path":"sprites/Spr_Health_bar_fill/Spr_Health_bar_fill.yy",},"resourceVersion":"1.0","name":"eb8cd63d-20bf-44f4-a55a-a23526378ebf","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -66,6 +67,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"8470115f-deee-4382-81b8-aad7cb4b0a5e","tags":[],"resourceType":"GMImageLayer",},
     {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ec7b54fe-4bf8-4e02-85cd-a124d17b274e","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"44f96002-cd67-45fc-9221-6908369166cb","tags":[],"resourceType":"GMImageLayer",},
   ],

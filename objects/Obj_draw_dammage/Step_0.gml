@@ -10,10 +10,8 @@ if(!down_animation){
 	opacity -= 0.035;
 }
 
-
-
 if(opacity <= 0){
 	instance_destroy();
 }
 
-	x = lerp(x, xstart * random_x, 0.004);
+x = lerp(x, xstart * random_x, 0.004);
