@@ -7,7 +7,7 @@ if(!down_animation){
 	if(size_supp >= (0 - 0.07)){	
 		size_supp -= 0.04;
 	}
-	opacity -= 0.02;
+	opacity -= 0.035;
 }
 
 
