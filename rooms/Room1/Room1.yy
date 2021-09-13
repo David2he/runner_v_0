@@ -16,6 +16,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_pj","path":"objects/Obj_pj/Obj_pj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":163.0,"y":749.0,"resourceVersion":"1.0","name":"inst_7EF731DB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_handle_enemies","path":"objects/Obj_handle_enemies/Obj_handle_enemies.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":34.0,"y":127.0,"resourceVersion":"1.0","name":"inst_DEA3E60","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Obj_shop","path":"objects/Obj_shop/Obj_shop.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.48461545,"scaleY":1.48461556,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":22.9153824,"y":425.0,"resourceVersion":"1.0","name":"inst_25C24BC3","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"Spr_bg_desert_06","path":"sprites/Spr_bg_desert_06/Spr_bg_desert_06.yy",},"colour":4294967295,"x":0,"y":210,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background_00","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"spriteId":{"name":"Spr_bg_desert_00","path":"sprites/Spr_bg_desert_00/Spr_bg_desert_00.yy",},"colour":4294967295,"x":0,"y":100,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background_01","tags":[],"resourceType":"GMRBackgroundLayer",},
@@ -30,6 +31,7 @@
   "instanceCreationOrder": [
     {"name":"inst_7EF731DB","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_DEA3E60","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_25C24BC3","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

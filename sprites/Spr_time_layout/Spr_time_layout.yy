@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "HUD",
-    "path": "folders/Sprites/HUD.yy",
+    "name": "TIME",
+    "path": "folders/Sprites/HUD/TIME.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_time_layout",

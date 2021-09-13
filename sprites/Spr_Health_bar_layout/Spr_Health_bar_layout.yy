@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "HUD",
-    "path": "folders/Sprites/HUD.yy",
+    "name": "HEALTH BAR",
+    "path": "folders/Sprites/HUD/HEALTH BAR.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_health_bar_layout",
