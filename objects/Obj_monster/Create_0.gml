@@ -4,4 +4,3 @@ Obj_pj.reset_frame = true;
 max_hp = 10;
 hp = max_hp;
 is_dead = false;
-
