@@ -1,1 +1,1 @@
-hp_set_monster --;
+hp_set_monster -= 10;
