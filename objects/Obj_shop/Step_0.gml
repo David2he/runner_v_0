@@ -1,34 +1,33 @@
- 
+//sprite_index = Spr_chest_icon_static;
 
-//if(hover){
-//	will_be_static = false;
+//if(hover && !end_animation){
 //	sprite_index = Spr_chest_icon_animated;
 //	if(image_index >= image_number -1){
-//		show_debug_message("test");
-//		sprite_index = Spr_chest_icon_static_hovered;
+//		end_animation = true;
 //	}
-//}else if (!hover){
-//	if(will_be_static){
-//		sprite_index = Spr_chest_icon_static;
-//	}else{
-//		sprite_index = Spr_chest_icon_animated_reverse;
-//		if(image_index >= image_number -1){
-//			will_be_static = true;
-//		}
-//	}
-	
+//} else if(hover && end_animation){
+//	sprite_index = Spr_chest_icon_static_hovered;
+//} else if(!hover){
+//	end_animation = false;
 //}
 
 
-sprite_index = Spr_chest_icon_static;
-
-if(hover && !end_animation){
+if(hover && !static_hovered){
+	have_been_animated = true;
 	sprite_index = Spr_chest_icon_animated;
 	if(image_index >= image_number -1){
-		end_animation = true;
+		static_hovered = true;
 	}
-} else if(hover && end_animation){
+} else if(hover && static_hovered){
+	image_index = 0;
 	sprite_index = Spr_chest_icon_static_hovered;
-} else if(!hover){
-	end_animation = false;
+} else if (!hover && have_been_animated){
+	static_hovered = false;
+	sprite_index = Spr_chest_icon_animated_reverse;
+	if(image_index >= image_number -1){
+		have_been_animated = false;
+	}
+} else if(!hover && !have_been_animated){
+	image_index = 0;
+	sprite_index = Spr_chest_icon_static;
 }
