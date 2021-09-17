@@ -32,7 +32,7 @@
     "spriteId": {"name":"Spr_chest_icon_static_hovered","path":"sprites/Spr_chest_icon_static_hovered/Spr_chest_icon_static_hovered.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 12.0,
+    "playbackSpeed": 25.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
