@@ -53,7 +53,7 @@
     "spriteId": {"name":"Spr_chest_icon_animated_reverse","path":"sprites/Spr_chest_icon_animated_reverse/Spr_chest_icon_animated_reverse.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 20.0,
+    "playbackSpeed": 25.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
