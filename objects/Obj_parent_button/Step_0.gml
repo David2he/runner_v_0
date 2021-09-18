@@ -1,8 +1,5 @@
-if(Obj_open_menue.destroy_menue){
-	y = lerp(y, -(sprite_height + 1), 0.15);
-	if(y < -sprite_height){
-		instance_destroy();
-	}
+if(!Obj_open_menue.destroy_menue){
+	y = lerp(y, (sprite_get_height(Spr_test_menue)/2) - (sprite_get_height(Spr_button_shop)/2), Obj_open_menue.speed_lerp);
 }else{
-	y = lerp(y, 0, 0.15);
+	y = lerp(y, -(sprite_height + 1), Obj_open_menue.speed_lerp);
 }

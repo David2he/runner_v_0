@@ -28,5 +28,5 @@ if(instance_exists(Obj_monster) && close_against_player) {
 	reset_frame = true;
 	Scr_handle_running(false);
 }
-//show_debug_message(image_index);
+
 
