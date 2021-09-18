@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "FIGHT",
+    "path": "folders/Scripts/FIGHT.yy",
   },
   "resourceVersion": "1.0",
   "name": "Scr_display_damage",
