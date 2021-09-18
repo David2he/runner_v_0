@@ -1,1 +1,0 @@
-show_debug_message(instance_number(Obj_menue));
