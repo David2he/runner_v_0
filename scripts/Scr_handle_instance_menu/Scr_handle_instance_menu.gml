@@ -10,7 +10,7 @@ function Scr_handle_instance_menu(){
 	var x_start_menu = 20;
 	var margin_for_first_button = 50;
 	var margin_for_button = sprite_get_width(Spr_button_shop) + 30;
-	var x_middle_menu = (x_start_menu + (sprite_get_width(Spr_test_menue)/2)) - 33
+	var x_middle_menu = (x_start_menu + (sprite_get_width(Spr_menu_pannel)/2)) - 33
 	
 	
 	if(delete_all){
@@ -19,7 +19,7 @@ function Scr_handle_instance_menu(){
 		instance_destroy(Obj_button_upgrade);
 	} else {
 		instance_create_depth(x_start_menu,
-			0 -(sprite_get_height(Spr_test_menue)),
+			0 -(sprite_get_height(Spr_menu_pannel)),
 			-3,
 			Menu
 		);

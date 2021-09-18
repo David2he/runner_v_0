@@ -7,7 +7,7 @@
     {"id":{"name":"Obj_draw_dammage","path":"objects/Obj_draw_dammage/Obj_draw_dammage.yy",},"order":0,},
     {"id":{"name":"Font_damage","path":"fonts/Font_damage/Font_damage.yy",},"order":0,},
     {"id":{"name":"Spr_chest_icon_animated","path":"sprites/Spr_chest_icon_animated/Spr_chest_icon_animated.yy",},"order":0,},
-    {"id":{"name":"Spr_test_menue","path":"sprites/Spr_test_menue/Spr_test_menue.yy",},"order":3,},
+    {"id":{"name":"Spr_menu_pannel","path":"sprites/Spr_menu_pannel/Spr_menu_pannel.yy",},"order":3,},
     {"id":{"name":"Spr_player_run","path":"sprites/Spr_player_run/Spr_player_run.yy",},"order":0,},
     {"id":{"name":"Spr_health_bar_fill","path":"sprites/Spr_health_bar_fill/Spr_health_bar_fill.yy",},"order":0,},
     {"id":{"name":"Spr_player_idle","path":"sprites/Spr_player_idle/Spr_player_idle.yy",},"order":6,},
