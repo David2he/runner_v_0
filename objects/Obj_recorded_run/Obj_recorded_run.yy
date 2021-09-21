@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_menu_pannel",
-    "path": "sprites/Spr_menu_pannel/Spr_menu_pannel.yy",
+    "name": "Spr_time_counter_pannel",
+    "path": "sprites/Spr_time_counter_pannel/Spr_time_counter_pannel.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,9 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +32,7 @@
     "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_menue",
+  "name": "Obj_recorded_run",
   "tags": [],
   "resourceType": "GMObject",
 }

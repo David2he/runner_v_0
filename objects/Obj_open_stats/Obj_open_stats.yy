@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_menu_pannel",
-    "path": "sprites/Spr_menu_pannel/Spr_menu_pannel.yy",
+    "name": "Spr_button_open_stats",
+    "path": "sprites/Spr_button_open_stats/Spr_button_open_stats.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,16 +21,18 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Stats",
+    "path": "folders/Objects/UI/Stats.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_menue",
+  "name": "Obj_open_stats",
   "tags": [],
   "resourceType": "GMObject",
 }

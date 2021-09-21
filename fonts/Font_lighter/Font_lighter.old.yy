@@ -132,7 +132,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Font_base",
+  "name": "Font_lighter",
   "tags": [],
   "resourceType": "GMFont",
 }

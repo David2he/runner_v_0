@@ -6,20 +6,21 @@ function Scr_handle_instance_menu(){
 	var Menu = Obj_menue;
 	var shop_button = Obj_button_shop;
 	var upgrade_button = Obj_button_upgrade;
+	var open_stats = Obj_open_stats;
 	
 	var x_start_menu = 20;
 	var margin_for_first_button = 50;
 	var margin_for_button = sprite_get_width(Spr_button_shop) + 30;
-	var x_middle_menu = (x_start_menu + (sprite_get_width(Spr_test_menue)/2)) - 33
 	
 	
 	if(delete_all){
-		instance_destroy(Obj_menue);
-		instance_destroy(Obj_button_shop);
-		instance_destroy(Obj_button_upgrade);
+		instance_destroy(Menu);
+		instance_destroy(shop_button);
+		instance_destroy(upgrade_button);
+		instance_destroy(open_stats);
 	} else {
 		instance_create_depth(x_start_menu,
-			0 -(sprite_get_height(Spr_test_menue)),
+			0 -(sprite_get_height(Spr_menu_pannel)),
 			-3,
 			Menu
 		);
@@ -34,6 +35,12 @@ function Scr_handle_instance_menu(){
 			0 - sprite_get_height(Spr_button_shop),
 			-4,
 			upgrade_button
+		);
+		
+		instance_create_depth(x_start_menu + 639,
+			0 - sprite_get_height(Spr_menu_pannel),
+			-4,
+			open_stats
 		);
 	}
 }
