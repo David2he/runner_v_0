@@ -1,5 +1,5 @@
-if(instance_exists(Obj_monster) && close_against_player){
-	if((damage < Obj_monster.max_hp) && combo = 0){
+if(instance_exists(Obj_monster_PARENT) && close_against_player){
+	if((damage < Obj_monster_PARENT.max_hp) && combo = 0){
 		combo = 1;
 	}
 

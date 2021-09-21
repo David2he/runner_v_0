@@ -14,8 +14,8 @@ function Scr_attack(){
 	
 	 for(var currentDamageFrame = 0; currentDamageFrame < array_length(hit_frames); currentDamageFrame++){
 		if((image_index > hit_frames[currentDamageFrame][0] && image_index < hit_frames[currentDamageFrame][1]) &&(hits_left[currentDamageFrame]>0)){
-			show_debug_message(combo);
-			Scr_handle_Damage(Obj_monster, Obj_pj.damage);
+			//show_debug_message(combo);
+			Scr_handle_Damage(Obj_monster_PARENT, Obj_pj.damage);
 			hits_left[currentDamageFrame] --;
 		}
 	}

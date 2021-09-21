@@ -1,2 +1,2 @@
-instance_create_depth(1100, 740, -1, Obj_monster);
-alarm[0] = 4* room_speed;
+instance_create_depth(1100, 740, -1, Obj_golem);
+alarm[0] = 0.65* room_speed;
