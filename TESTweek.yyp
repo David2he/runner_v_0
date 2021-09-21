@@ -21,7 +21,6 @@
     {"id":{"name":"Obj_open_menue","path":"objects/Obj_open_menue/Obj_open_menue.yy",},"order":2,},
     {"id":{"name":"Scr_attack","path":"scripts/Scr_attack/Scr_attack.yy",},"order":0,},
     {"id":{"name":"Spr_button_open_stats","path":"sprites/Spr_button_open_stats/Spr_button_open_stats.yy",},"order":0,},
-    {"id":{"name":"Obj_monster","path":"objects/Obj_monster/Obj_monster.yy",},"order":0,},
     {"id":{"name":"Spr_player_attack_run_exemple","path":"sprites/Spr_player_attack_run_exemple/Spr_player_attack_run_exemple.yy",},"order":4,},
     {"id":{"name":"Spr_player_attack_2","path":"sprites/Spr_player_attack_2/Spr_player_attack_2.yy",},"order":1,},
     {"id":{"name":"Spr_player_ex","path":"sprites/Spr_player_ex/Spr_player_ex.yy",},"order":5,},
