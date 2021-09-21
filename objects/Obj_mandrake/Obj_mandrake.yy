@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_mandrake_idle",
-    "path": "sprites/Spr_mandrake_idle/Spr_mandrake_idle.yy",
+    "name": "Spr_mandrake_run",
+    "path": "sprites/Spr_mandrake_run/Spr_mandrake_run.yy",
   },
   "solid": false,
   "visible": true,
