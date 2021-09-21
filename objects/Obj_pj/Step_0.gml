@@ -1,5 +1,5 @@
-if(instance_exists(Obj_monster) && close_against_player) {
-	if((damage < Obj_monster.max_hp) && combo = 0){
+if(instance_exists(Obj_monster_PARENT) && close_against_player){
+	if((damage < Obj_monster_PARENT.max_hp) && combo = 0){
 		combo = 1;
 	}
 
@@ -8,6 +8,7 @@ if(instance_exists(Obj_monster) && close_against_player) {
 			Scr_attack([[1,2]], [1], Spr_player_attack_run, 0);
 			break;
 		case 1:
+			is_fighting = true;
 			Scr_attack([[1,2]], [1,1], Spr_player_attack_transition_1, 2);
 			Scr_handle_running(true);
 			break;
@@ -22,9 +23,8 @@ if(instance_exists(Obj_monster) && close_against_player) {
 			break;
 	}
 
-	
-	
 } else if (!close_against_player && image_index >= image_number-1){
+	is_fighting = false;
 	reset_frame = true;
 	Scr_handle_running(false);
 }

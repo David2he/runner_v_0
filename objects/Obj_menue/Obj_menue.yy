@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Spr_test_menue",
-    "path": "sprites/Spr_test_menue/Spr_test_menue.yy",
+    "name": "Spr_menu_pannel",
+    "path": "sprites/Spr_menu_pannel/Spr_menu_pannel.yy",
   },
   "solid": false,
   "visible": true,

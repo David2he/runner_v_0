@@ -1,5 +1,5 @@
 if(is_open){
-	y = lerp(y, sprite_get_height(Spr_test_menue), Obj_open_menue.speed_lerp);
+	y = lerp(y, sprite_get_height(Spr_menu_pannel), Obj_open_menue.speed_lerp);
 	image_index = 1;
 }else{
 	y = lerp(y, 0, Obj_open_menue.speed_lerp);
