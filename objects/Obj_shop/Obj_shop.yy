@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Button Inside",
+    "path": "folders/Objects/UI/Button Inside.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_shop",
