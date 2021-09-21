@@ -5,5 +5,5 @@ hp = max_hp;
 is_dead = false;
 max_time = 40;
 time = max_time;
-time_allowed = true;
+time_allowed = false;
 	draw_set_font(Font_base);
