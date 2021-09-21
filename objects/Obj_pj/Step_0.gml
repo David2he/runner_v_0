@@ -12,7 +12,7 @@ if(instance_exists(Obj_monster_PARENT) && close_against_player){
 			Scr_attack([[1,2]], [1,1], Spr_player_attack_transition_1, 2);
 			Scr_handle_running(true);
 			break;
-		case 2:
+		case  2:
 			Scr_attack([[2,3]], [1,1], Spr_player_attack_transition_2, 3);
 			break;
 		case 3:
@@ -27,6 +27,9 @@ if(instance_exists(Obj_monster_PARENT) && close_against_player){
 	is_fighting = false;
 	reset_frame = true;
 	Scr_handle_running(false);
+	count_enemies_cac = 0;
 }
-
+	
+	//moovement_speed = 1/count_enemies_cac +6
+	//show_debug_message(moovement_speed);
 

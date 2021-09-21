@@ -7,7 +7,9 @@ combo = 0;
 
 is_fighting = false;
 
-//image_speed = 1;
+count_enemies_cac = 0;
+moovement_speed = 1;
+
 
 Scr_handle_running(true);
 
