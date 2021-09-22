@@ -1,11 +1,10 @@
 if(instance_exists(Obj_monster_PARENT) && close_against_player){
 	
-	
-		if(moovement_speed == 0 && combo == 0){
+		if(moovement_speed < 0.8 && combo == 0){
 			combo = 1;	
 		}
 	
-		if(damage < Obj_monster_PARENT.max_hp && combo == 0 ){
+		if(damage < Obj_monster_PARENT.max_hp && combo == 0){
 			combo = 1;
 		}
 
@@ -30,6 +29,7 @@ if(instance_exists(Obj_monster_PARENT) && close_against_player){
 	}
 
 } else if (!close_against_player && image_index >= image_number-1){
+	show_debug_message("---");
 	is_fighting = false;
 	reset_frame = true;
 	count_enemies_cac = 0;
@@ -38,12 +38,15 @@ if(instance_exists(Obj_monster_PARENT) && close_against_player){
 if(is_fighting){
 	Scr_handle_running(true);
 	if(moovement_speed > 0){
-		moovement_speed -= 0.1;
+		if(moovement_speed > 0){
+			moovement_speed -= (initial_moovement_speed / (room_speed / 2));
+		}
 	} 
-}else{
+}else if (!is_fighting){
 	Scr_handle_running(false);
 	if(moovement_speed < 4){
-		moovement_speed += 0.05;
+		moovement_speed += (initial_moovement_speed / (room_speed / 4));
 	} 
 }
-//show_debug_message(combo);
+
+show_debug_message(moovement_speed);

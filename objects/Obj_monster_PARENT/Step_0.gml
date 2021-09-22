@@ -5,13 +5,13 @@ if(!is_close_to_player){
 	if(!is_blocking){
 		alarm[0] = 1;
 	}
-	if(is_dead){
-		Obj_pj.count_enemies_cac --;
-	}
+	
 }
 
 if(is_dead){
-
+	if(is_close_to_player){
+		Obj_pj.count_enemies_cac --;
+	}
 	is_dead = !is_dead;
 	instance_destroy();
 }
