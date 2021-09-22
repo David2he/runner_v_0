@@ -8,8 +8,8 @@ combo = 0;
 is_fighting = false;
 
 count_enemies_cac = 0;
-moovement_speed = 1;
+moovement_speed = 4;
 
 
-Scr_handle_running(true);
+//Scr_handle_running(true);
 
