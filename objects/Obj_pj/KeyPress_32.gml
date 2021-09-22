@@ -1,1 +1,3 @@
-is_fighting = false;
+moovement_speed += 0.5;
+initial_moovement_speed += 0.5;
+

@@ -6,9 +6,12 @@ combo = 0;
 
 is_fighting = false;
 
-count_enemies_cac = 0;
-initial_moovement_speed = 4;
+count_enemies_cac = 1;
+initial_moovement_speed = 0.5;
 moovement_speed = initial_moovement_speed;
+is_running_back = false;
+
+reduce_moovement_speed = initial_moovement_speed/(room_speed/8);
 
 
 
