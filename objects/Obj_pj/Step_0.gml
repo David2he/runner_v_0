@@ -1,5 +1,6 @@
 if(instance_exists(Obj_monster_PARENT) && close_against_player){
-	if((damage < Obj_monster_PARENT.max_hp) && combo = 0){
+	
+	if((damage >= Obj_monster_PARENT.max_hp) && (combo = 0)){
 		combo = 1;
 	}
 
@@ -31,5 +32,5 @@ if(instance_exists(Obj_monster_PARENT) && close_against_player){
 }
 	
 	//moovement_speed = 1/count_enemies_cac +6
-	//show_debug_message(moovement_speed);
+	show_debug_message(count_enemies_cac);
 
