@@ -1,16 +1,15 @@
 if(!down_animation){
-	y = lerp(y,  ystart - 100, 0.15);
-	size_supp += 0.14;
+	y = lerp(y,  ystart - 200, 0.1);
+	size_supp += 0.1;
 }else{
-	y = lerp(y,  ystart + 20, 0.08);
+	y = lerp(y,  ystart + 400, 0.1);
 
 	if(size_supp >= (0 - 0.07)){	
-		size_supp -= 0.04;
+		size_supp -= 0.18;
 	}
-	opacity -= 0.035;
 }
 
-if(opacity <= 0){
+if(size_supp <= 0.1){
 	instance_destroy();
 }
 

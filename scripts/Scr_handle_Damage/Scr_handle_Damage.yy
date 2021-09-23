@@ -6,7 +6,7 @@
     "path": "folders/Scripts/FIGHT.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Scr_handle_Damage",
+  "name": "Scr_handle_damage",
   "tags": [],
   "resourceType": "GMScript",
 }

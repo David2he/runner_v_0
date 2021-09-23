@@ -5,6 +5,8 @@ function Scr_attack(){
 	var hits_left_arg = argument[1];
 	var sprite = argument[2];
 	var next_combo = argument[3];
+	
+	var damage = argument[4];
 
 	if(reset_frame){
 		//show_debug_message("RESET")
@@ -14,8 +16,8 @@ function Scr_attack(){
 	
 	 for(var currentDamageFrame = 0; currentDamageFrame < array_length(hit_frames); currentDamageFrame++){
 		if((image_index > hit_frames[currentDamageFrame][0] && image_index < hit_frames[currentDamageFrame][1]) &&(hits_left[currentDamageFrame]>0)){
-			show_debug_message(combo);
-			Scr_handle_Damage(Obj_monster, Obj_pj.damage);
+			//show_debug_message(combo);
+			Scr_handle_damage(Obj_monster_PARENT, damage);
 			hits_left[currentDamageFrame] --;
 		}
 	}
