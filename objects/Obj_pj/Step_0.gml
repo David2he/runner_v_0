@@ -1,33 +1,32 @@
 if(instance_exists(Obj_monster_PARENT) && close_against_player){
-	
+		first_attack = damage + moovement_speed/5;
 		if(moovement_speed < initial_moovement_speed / 10 && combo == 0){
 			combo = 1;	
 		}
 	
-		if(damage < Obj_monster_PARENT.max_hp && combo == 0){
+		if(first_attack < Obj_monster_PARENT.max_hp && combo == 0){
 			combo = 1;
 		}
 
 	switch(combo){
 		case 0:
-			reduce_moovement_speed = initial_moovement_speed/(room_speed * 1.5);
+			reduce_moovement_speed = decrementor_speed_little;
 			is_fighting = true;
-			Scr_attack([[1,2]], [1], Spr_player_attack_run, 0);
+			Scr_attack([[1,2]], [1], Spr_player_attack_run, 0, first_attack);
 			break;
 		case 1:
-			reduce_moovement_speed = initial_moovement_speed/(room_speed/2);
+			reduce_moovement_speed = decrementor_speed_strong;
 			is_fighting = true;
-			//reduce_moovement_speed = moovement_speed/4;
-			Scr_attack([[1,2]], [1,1], Spr_player_attack_transition_1, 2);
+			Scr_attack([[1,2]], [1,1], Spr_player_attack_transition_1, 2, first_attack);
 			break;
 		case  2:
-			Scr_attack([[2,3]], [1,1], Spr_player_attack_transition_2, 3);
+			Scr_attack([[2,3]], [1,1], Spr_player_attack_transition_2, 3, damage);
 			break;
 		case 3:
-			Scr_attack([[2,3]], [1,1], Spr_player_attack_1, 4);
+			Scr_attack([[2,3]], [1,1], Spr_player_attack_1, 4, damage);
 			break;
 		case 4:
-			Scr_attack([[2 ,3]], [1,1], Spr_player_attack_2, 3);
+			Scr_attack([[2 ,3]], [1,1], Spr_player_attack_2, 3, damage);
 			break;
 	}
 
@@ -38,24 +37,21 @@ if(instance_exists(Obj_monster_PARENT) && close_against_player){
 	is_running_back = false;
 }
 
-	
+
 	
 if(is_fighting){
 	Scr_handle_running(true);
 	if(moovement_speed >= 0 && !is_running_back){
-			moovement_speed -= reduce_moovement_speed;
+			moovement_speed = lerp(moovement_speed, 0, reduce_moovement_speed);
 	}else if(moovement_speed < 0){
 		is_running_back = true;
 		moovement_speed = 0;
 	}
 }else if (!is_fighting){
 	Scr_handle_running(false);
-	if(moovement_speed <= initial_moovement_speed){
-		moovement_speed += (reduce_moovement_speed);
-	} 
+	if(moovement_speed < initial_moovement_speed){
+		moovement_speed += lerp( 0, initial_moovement_speed, incrementor_speed_restart);
+	} else if(moovement_speed > initial_moovement_speed){
+		moovement_speed = initial_moovement_speed;
+	}
 }
-
-//show_debug_message(moovement_speed);
-//show_debug_message("____-------");
-//show_debug_message(reduce_moovement_speed);
-//show_debug_message("____-------");

@@ -1,7 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Spr_bg_desert_00","path":"sprites/Spr_bg_desert_00/Spr_bg_desert_00.yy",},"order":0,},
-    {"id":{"name":"Scr_handle_Damage","path":"scripts/Scr_handle_Damage/Scr_handle_Damage.yy",},"order":2,},
+    {"id":{"name":"Scr_handle_damage","path":"scripts/Scr_handle_damage/Scr_handle_damage.yy",},"order":2,},
     {"id":{"name":"Font_lighter","path":"fonts/Font_lighter/Font_lighter.yy",},"order":2,},
     {"id":{"name":"Spr_flying_eye","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"order":0,},
     {"id":{"name":"Font_base","path":"fonts/Font_base/Font_base.yy",},"order":1,},
@@ -52,6 +52,7 @@
     {"id":{"name":"Spr_golem_die","path":"sprites/Spr_golem_die/Spr_golem_die.yy",},"order":2,},
     {"id":{"name":"Spr_bg_desert_05","path":"sprites/Spr_bg_desert_05/Spr_bg_desert_05.yy",},"order":4,},
     {"id":{"name":"Spr_golem_run","path":"sprites/Spr_golem_run/Spr_golem_run.yy",},"order":0,},
+    {"id":{"name":"lots_and_lots_and_lots_of_colors","path":"scripts/lots_and_lots_and_lots_of_colors/lots_and_lots_and_lots_of_colors.yy",},"order":230,},
     {"id":{"name":"Obj_handle_enemies","path":"objects/Obj_handle_enemies/Obj_handle_enemies.yy",},"order":1,},
     {"id":{"name":"Spr_bg_desert_04","path":"sprites/Spr_bg_desert_04/Spr_bg_desert_04.yy",},"order":3,},
     {"id":{"name":"Obj_parent_button","path":"objects/Obj_parent_button/Obj_parent_button.yy",},"order":2,},

@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "FIGHT",
-    "path": "folders/Scripts/FIGHT.yy",
+    "name": "TESTweek",
+    "path": "TESTweek.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "Scr_handle_damage",
+  "name": "lots_and_lots_and_lots_of_colors",
   "tags": [],
   "resourceType": "GMScript",
 }

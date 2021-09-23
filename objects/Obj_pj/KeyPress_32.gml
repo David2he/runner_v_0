@@ -1,3 +1,3 @@
-moovement_speed += 0.5;
-initial_moovement_speed += 0.5;
+moovement_speed += 20;
+initial_moovement_speed += 20;
 
