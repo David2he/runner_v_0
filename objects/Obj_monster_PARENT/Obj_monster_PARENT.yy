@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MONSTER",
-    "path": "folders/Objects/Enemies/MONSTER.yy",
+    "name": "Controller",
+    "path": "folders/AAAA/MONSTERS/OBJECTS/Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_monster_PARENT",

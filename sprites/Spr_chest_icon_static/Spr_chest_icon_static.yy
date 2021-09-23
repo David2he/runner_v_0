@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "SHOP",
-    "path": "folders/Sprites/HUD/SHOP.yy",
+    "name": "shop_button",
+    "path": "folders/AAAA/UI_UX/SPRITES/Menu/buttons/shop_button.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_chest_icon_static",

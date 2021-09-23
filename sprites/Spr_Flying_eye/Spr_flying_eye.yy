@@ -25,28 +25,28 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"2de5b831-aac1-4802-b5c3-c5dae5b09f1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2de5b831-aac1-4802-b5c3-c5dae5b09f1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"2de5b831-aac1-4802-b5c3-c5dae5b09f1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"93505bb5-f645-4499-a109-b2c0842fbc1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"2de5b831-aac1-4802-b5c3-c5dae5b09f1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_flying_eye","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"2de5b831-aac1-4802-b5c3-c5dae5b09f1d","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"f0e7919d-31e9-48bf-b680-54666104170e","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f0e7919d-31e9-48bf-b680-54666104170e","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f0e7919d-31e9-48bf-b680-54666104170e","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"93505bb5-f645-4499-a109-b2c0842fbc1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f0e7919d-31e9-48bf-b680-54666104170e","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_flying_eye","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"f0e7919d-31e9-48bf-b680-54666104170e","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"9d9393d6-a975-403a-bf7b-5a2d838d9956","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"9d9393d6-a975-403a-bf7b-5a2d838d9956","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"9d9393d6-a975-403a-bf7b-5a2d838d9956","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"93505bb5-f645-4499-a109-b2c0842fbc1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"9d9393d6-a975-403a-bf7b-5a2d838d9956","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_flying_eye","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"9d9393d6-a975-403a-bf7b-5a2d838d9956","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"37fb52a7-1605-409c-965f-dbb39d50aa12","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"37fb52a7-1605-409c-965f-dbb39d50aa12","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"37fb52a7-1605-409c-965f-dbb39d50aa12","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"93505bb5-f645-4499-a109-b2c0842fbc1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"37fb52a7-1605-409c-965f-dbb39d50aa12","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_flying_eye","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"37fb52a7-1605-409c-965f-dbb39d50aa12","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"a9c1c65a-6e63-4c6d-add5-494c3b17e81b","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a9c1c65a-6e63-4c6d-add5-494c3b17e81b","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"a9c1c65a-6e63-4c6d-add5-494c3b17e81b","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"93505bb5-f645-4499-a109-b2c0842fbc1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a9c1c65a-6e63-4c6d-add5-494c3b17e81b","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_flying_eye","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"a9c1c65a-6e63-4c6d-add5-494c3b17e81b","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"ff124d1d-1522-498f-8c5f-b4c5373bd97c","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ff124d1d-1522-498f-8c5f-b4c5373bd97c","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"ff124d1d-1522-498f-8c5f-b4c5373bd97c","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"93505bb5-f645-4499-a109-b2c0842fbc1d","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ff124d1d-1522-498f-8c5f-b4c5373bd97c","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"LayerId":{"name":"cce83995-3bf6-4724-b37f-da6c97ea5a35","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_flying_eye","path":"sprites/Spr_flying_eye/Spr_flying_eye.yy",},"resourceVersion":"1.0","name":"ff124d1d-1522-498f-8c5f-b4c5373bd97c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -96,8 +96,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Sprites/Enemies.yy",
+    "name": "SPRITES",
+    "path": "folders/AAAA/MONSTERS/SPRITES.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_flying_eye",

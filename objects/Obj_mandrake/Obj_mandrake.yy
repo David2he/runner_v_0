@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "MONSTER",
-    "path": "folders/Objects/Enemies/MONSTER.yy",
+    "name": "Monsters",
+    "path": "folders/AAAA/MONSTERS/OBJECTS/Monsters.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_mandrake",

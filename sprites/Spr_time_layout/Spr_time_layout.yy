@@ -25,9 +25,9 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"a5af2cd2-a333-405f-b1c7-4500a919b801","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a5af2cd2-a333-405f-b1c7-4500a919b801","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"LayerId":{"name":"0e8722b3-dfc8-4102-87ac-f85890b59804","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"a5af2cd2-a333-405f-b1c7-4500a919b801","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"LayerId":{"name":"e4964ed6-a160-4f13-8f1e-fa0ec60c89b6","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"a5af2cd2-a333-405f-b1c7-4500a919b801","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"LayerId":{"name":"8a8373ef-f11f-473b-bd64-57c3100fa80c","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a5af2cd2-a333-405f-b1c7-4500a919b801","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"LayerId":{"name":"e4964ed6-a160-4f13-8f1e-fa0ec60c89b6","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a5af2cd2-a333-405f-b1c7-4500a919b801","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"LayerId":{"name":"0e8722b3-dfc8-4102-87ac-f85890b59804","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Spr_time_layout","path":"sprites/Spr_time_layout/Spr_time_layout.yy",},"resourceVersion":"1.0","name":"a5af2cd2-a333-405f-b1c7-4500a919b801","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "TIME",
-    "path": "folders/Sprites/HUD/TIME.yy",
+    "name": "time",
+    "path": "folders/AAAA/UI_UX/SPRITES/Bar/time.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_time_layout",
