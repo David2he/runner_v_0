@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Background",
-    "path": "folders/Sprites/Background.yy",
+    "name": "Backgrounds",
+    "path": "folders/AAAA/UI_UX/SPRITES/Backgrounds.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_bg_desert_03",

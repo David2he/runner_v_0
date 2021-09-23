@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "HUD",
-    "path": "folders/Sprites/HUD.yy",
+    "name": "Stats",
+    "path": "folders/AAAA/UI_UX/SPRITES/Stats.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_time_counter_pannel",

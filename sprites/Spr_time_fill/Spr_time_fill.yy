@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "TIME",
-    "path": "folders/Sprites/HUD/TIME.yy",
+    "name": "time",
+    "path": "folders/AAAA/UI_UX/SPRITES/Bar/time.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_time_fill",

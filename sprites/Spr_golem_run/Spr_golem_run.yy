@@ -89,8 +89,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GOLEM",
-    "path": "folders/Sprites/Enemies/GOLEM.yy",
+    "name": "Golem",
+    "path": "folders/AAAA/MONSTERS/SPRITES/Golem.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_golem_run",

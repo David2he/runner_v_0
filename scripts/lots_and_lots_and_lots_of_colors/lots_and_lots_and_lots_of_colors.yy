@@ -6,7 +6,7 @@
     "path": "folders/AAAA/Scripts/UTILITY.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Scr_handle_instance_menu",
+  "name": "lots_and_lots_and_lots_of_colors",
   "tags": [],
   "resourceType": "GMScript",
 }

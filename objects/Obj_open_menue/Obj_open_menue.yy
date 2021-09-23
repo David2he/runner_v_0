@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Menu",
+    "path": "folders/AAAA/UI_UX/OBJECTS/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_open_menue",

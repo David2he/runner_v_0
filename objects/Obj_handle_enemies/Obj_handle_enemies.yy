@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Controller",
+    "path": "folders/AAAA/MONSTERS/OBJECTS/Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_handle_enemies",

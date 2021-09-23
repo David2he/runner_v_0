@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "HEALTH BAR",
-    "path": "folders/Sprites/HUD/HEALTH BAR.yy",
+    "name": "health",
+    "path": "folders/AAAA/UI_UX/SPRITES/Bar/health.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_health_bar_fill",

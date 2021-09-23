@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "MENU",
-    "path": "folders/Sprites/HUD/MENU.yy",
+    "name": "buttons",
+    "path": "folders/AAAA/UI_UX/SPRITES/Menu/buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_button_shop",
