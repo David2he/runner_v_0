@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Button Inside",
-    "path": "folders/Objects/UI/Button Inside.yy",
+    "name": "buttons",
+    "path": "folders/AAAA/UI_UX/OBJECTS/Menu/buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_button_shop",

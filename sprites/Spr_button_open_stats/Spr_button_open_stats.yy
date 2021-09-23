@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "STAT",
-    "path": "folders/Sprites/HUD/STAT.yy",
+    "name": "Stats",
+    "path": "folders/AAAA/UI_UX/SPRITES/Stats.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_button_open_stats",

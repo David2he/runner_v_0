@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Stats",
-    "path": "folders/Objects/UI/Stats.yy",
+    "path": "folders/AAAA/UI_UX/OBJECTS/Stats.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_stat_menu",

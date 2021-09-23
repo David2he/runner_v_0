@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "FX",
-    "path": "folders/Objects/FX.yy",
+    "name": "Stats",
+    "path": "folders/AAAA/UI_UX/OBJECTS/Stats.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_draw_dammage",

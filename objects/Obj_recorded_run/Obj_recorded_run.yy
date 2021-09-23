@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Stats",
+    "path": "folders/AAAA/UI_UX/OBJECTS/Stats.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_recorded_run",

@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "MANDRAKE",
-    "path": "folders/Sprites/Enemies/MANDRAKE.yy",
+    "name": "Mandrake",
+    "path": "folders/AAAA/MONSTERS/SPRITES/Mandrake.yy",
   },
   "resourceVersion": "1.0",
   "name": "Spr_mandrake_idle",

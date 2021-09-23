@@ -29,8 +29,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "OBJECTS",
+    "path": "folders/AAAA/PLAYER/OBJECTS.yy",
   },
   "resourceVersion": "1.0",
   "name": "Obj_pj",
