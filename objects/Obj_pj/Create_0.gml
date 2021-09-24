@@ -22,6 +22,6 @@ first_attack = damage + moovement_speed/5;
 
 decrementor_speed_little = 1/40;
 decrementor_speed_strong = 1/20;
-incrementor_speed_restart = 0.0125;
+incrementor_speed_restart = 1/80;
 
 reduce_moovement_speed = initial_moovement_speed;
