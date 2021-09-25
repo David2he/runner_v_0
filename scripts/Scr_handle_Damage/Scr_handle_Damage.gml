@@ -15,9 +15,11 @@ function Scr_handle_damage(){
 	}
 	
 	target.hp -= damage;
+	target.hitted = true;
 	Scr_display_damage(damage, target, color);
 	
 	if(target.hp <= 0){
+		target.hitted = false;
 		combo = 0;
 		Obj_pj.close_against_player = false;
 		target.is_dead = true;
