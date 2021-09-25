@@ -12,7 +12,8 @@ if(instance_exists(Obj_monster_PARENT) && close_against_player){
 		case 0:
 			reduce_moovement_speed = decrementor_speed_little;
 			is_fighting = true;
-			Scr_attack([[1,2]], [1], Spr_player_attack_run, 0, first_attack);
+		
+			Scr_attack([[1,2]], [1],asset_get_index(string("Spr_player_attack_run_") + string(alternate_att_run)), 0, first_attack);
 			break;
 		case 1:
 			reduce_moovement_speed = decrementor_speed_strong;
@@ -55,3 +56,5 @@ if(is_fighting){
 		moovement_speed = initial_moovement_speed;
 	}
 }
+
+

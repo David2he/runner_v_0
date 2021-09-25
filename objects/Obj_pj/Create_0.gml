@@ -7,6 +7,7 @@ is_fighting = false;
 count_enemies_cac = 1;
 is_running_back = false;
 
+alternate_att_run = true;
 
 
 
