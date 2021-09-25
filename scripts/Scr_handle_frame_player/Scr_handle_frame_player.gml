@@ -3,7 +3,7 @@
 function Scr_handle_frame_player(){
 	
 	var target = argument[0];
-	var frame_to_start = argument[1];
+	//var frame_to_start = argument[1];
 	var sprite = argument[2];
 
 
