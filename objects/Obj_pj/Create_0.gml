@@ -12,7 +12,7 @@ alternate_att_run = true;
 
 will_be_a_crit = true;
 damage = 20;
-crit_rate = 1;
+crit_rate = 0.5;
 crit_bonus_damage = 1.5;
 initial_moovement_speed = 1;
 moovement_speed = initial_moovement_speed;
