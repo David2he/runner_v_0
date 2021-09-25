@@ -10,8 +10,6 @@ is_running_back = false;
 alternate_att_run = true;
 
 
-
-//Scr_handle_running(true);
 will_be_a_crit = true;
 damage = 20;
 crit_rate = 1;

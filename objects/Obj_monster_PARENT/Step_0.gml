@@ -33,33 +33,3 @@ if(is_dead){
 	instance_destroy();
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//if(is_dead){
-//	sprite_index = dead_sprite;
-//	if(is_close_to_player){
-//		Obj_pj.count_enemies_cac --;
-//	}
-//	Obj_pj.alternate_att_run = !Obj_pj.alternate_att_run;
-//	if(image_index >= image_number - 1){
-//		is_dead = !is_dead;
-//		instance_destroy();
-//	}
-//}
