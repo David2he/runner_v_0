@@ -7,5 +7,7 @@ if(!Obj_pj.is_fighting){
 		instance_destroy();
 	}
 }else if(image_index >= image_number - 1){
-	instance_destroy();
+	image_index = image_number - 1;
+	image_alpha -= 0.07;
+	if(image_alpha <= 0) instance_destroy();
 }

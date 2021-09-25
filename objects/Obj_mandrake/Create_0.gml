@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-max_hp = 61;
+max_hp = 120;
 idle_sprite = Spr_mandrake_idle;
 running_sprite = Spr_mandrake_run;
 hited_sprite = Spr_mandrake_hurt;

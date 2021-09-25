@@ -16,7 +16,7 @@ alternate_att_run = true;
 damage = 20;
 crit_rate = 0.60;
 crit_bonus_damage = 1.5;
-initial_moovement_speed = 4;
+initial_moovement_speed = 1;
 moovement_speed = initial_moovement_speed;
 first_attack = damage + moovement_speed/5;
 
