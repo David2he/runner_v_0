@@ -36,7 +36,9 @@
     {"id":{"name":"Obj_button_upgrade","path":"objects/Obj_button_upgrade/Obj_button_upgrade.yy",},"order":2,},
     {"id":{"name":"Spr_bg_desert_03","path":"sprites/Spr_bg_desert_03/Spr_bg_desert_03.yy",},"order":2,},
     {"id":{"name":"Obj_shop","path":"objects/Obj_shop/Obj_shop.yy",},"order":0,},
+    {"id":{"name":"Obj_loots","path":"objects/Obj_loots/Obj_loots.yy",},"order":1,},
     {"id":{"name":"Obj_mandrake","path":"objects/Obj_mandrake/Obj_mandrake.yy",},"order":1,},
+    {"id":{"name":"Spr_loot_test","path":"sprites/Spr_loot_test/Spr_loot_test.yy",},"order":0,},
     {"id":{"name":"Obj_menue","path":"objects/Obj_menue/Obj_menue.yy",},"order":0,},
     {"id":{"name":"Obj_button_shop","path":"objects/Obj_button_shop/Obj_button_shop.yy",},"order":1,},
     {"id":{"name":"Shader1","path":"shaders/Shader1/Shader1.yy",},"order":0,},
@@ -135,6 +137,7 @@
     {"folderPath":"folders/AAAA/UI_UX/OBJECTS/Stats.yy","order":1,"resourceVersion":"1.0","name":"Stats","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/AAAA/UI_UX/SPRITES/Backgrounds.yy","order":3,"resourceVersion":"1.0","name":"Backgrounds","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/AAAA.yy","order":15,"resourceVersion":"1.0","name":"AAAA","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/AAAA/TEST.yy","order":4,"resourceVersion":"1.0","name":"TEST","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

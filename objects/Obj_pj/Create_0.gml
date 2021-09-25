@@ -12,14 +12,14 @@ alternate_att_run = true;
 
 
 //Scr_handle_running(true);
-
+will_be_a_crit = true;
 damage = 20;
-crit_rate = 0.60;
+crit_rate = 1;
 crit_bonus_damage = 1.5;
 initial_moovement_speed = 1;
 moovement_speed = initial_moovement_speed;
 first_attack = damage + moovement_speed/5;
-
+first_attack_critted = (damage + moovement_speed/5) * crit_bonus_damage
 
 decrementor_speed_little = 1/40;
 decrementor_speed_strong = 1/20;

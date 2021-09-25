@@ -1,13 +1,19 @@
 if(instance_exists(Obj_monster_PARENT) && close_against_player){
 		first_attack = damage + moovement_speed/5;
-		if(moovement_speed < initial_moovement_speed / 10 && combo == 0){
-			combo = 1;	
-		}
-	
-		if(first_attack < Obj_monster_PARENT.max_hp && combo == 0){
-			combo = 1;
-		}
+		first_attack_critted = (damage + moovement_speed/5) * crit_bonus_damage
+		
 
+	if(will_be_a_crit && first_attack_critted < Obj_monster_PARENT.max_hp && combo == 0){
+		combo = 1;
+	} else if (first_attack < Obj_monster_PARENT.max_hp && combo == 0 && !will_be_a_crit){
+		combo = 1;
+	}
+	if((moovement_speed < initial_moovement_speed / 10) && combo == 0){
+		combo = 1;
+	}
+		
+		
+	
 	switch(combo){
 		case 0:
 			reduce_moovement_speed = decrementor_speed_little;
@@ -56,4 +62,4 @@ if(is_fighting){
 	}
 }
 
-
+//show_debug_message(combo);
