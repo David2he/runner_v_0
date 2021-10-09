@@ -6,7 +6,7 @@ combo = 0;
 is_fighting = false;
 count_enemies_cac = 1;
 is_running_back = false;
-
+gold = 0; 
 alternate_att_run = true;
 
 
