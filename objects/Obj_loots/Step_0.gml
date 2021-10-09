@@ -6,7 +6,7 @@ if(!player_take_it){
 	} 
 	
 	if(!stop){
-		percent += 1/60;
+		percent += 1/80;
 		image_angle += rotate_sprite;
 		position = animcurve_channel_evaluate(curve, percent);
 

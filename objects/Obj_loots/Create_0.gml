@@ -1,4 +1,4 @@
-random_sprite = irandom(1);
+random_sprite = irandom(4);
 random_curve = irandom(3);
 random_rotate_x_y = irandom(1);
 
