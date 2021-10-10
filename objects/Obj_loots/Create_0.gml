@@ -18,3 +18,7 @@ if(random_rotate_x_y == 0){
 	rotate_sprite = irandom_range(4, 6);
 }
 yTop = random_range(100, 300)
+
+
+alarm[1] = 5* room_speed;
+miss_it = false;

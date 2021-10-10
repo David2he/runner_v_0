@@ -22,9 +22,12 @@ if(!player_take_it){
 } else {
 	y = lerp(y, -20, 0.07);
 	x = lerp(x, room_width/2, 0.07);
-	alarm[0] = 1*room_speed;
 }
 
+if(miss_it){
+	y = lerp(y, -20, 0.07);
+	x = lerp(x, room_width/2, 0.07);
+}
 
 
 

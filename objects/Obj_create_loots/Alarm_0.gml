@@ -1,6 +1,5 @@
-for(i = 0; i < 10; i ++){
-	instance_create_depth(540, 812, -2,Obj_loots);
+for(i = 0; i < ammount_of_gold; i ++){
+	instance_create_depth(x_monster, y_monster, -2,Obj_loots);
 }
 
-alarm[0] = room_speed *0.5;
 
