@@ -3,7 +3,7 @@
 /// @description
 function Scr_handle_running(){
 	var is_stopping = argument[0];
-	var run_speed = Obj_pj.moovement_speed
+	var run_speed = Obj_pj.moovement_speed;
 	var flor_speed = -6;
 	
 	
