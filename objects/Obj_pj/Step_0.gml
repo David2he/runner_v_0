@@ -61,5 +61,3 @@ if(is_fighting){
 		moovement_speed = initial_moovement_speed;
 	}
 }
-
-//show_debug_message(combo);
