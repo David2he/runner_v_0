@@ -8,7 +8,7 @@ function Scr_handle_instance_menu(){
 	var upgrade_button = Obj_button_upgrade;
 	var open_stats = Obj_open_stats;
 	
-	var x_start_menu = 20;
+	var x_start_menu = room_width/2 - sprite_get_width(Spr_menu_pannel)/2;
 	var margin_for_first_button = 50;
 	var margin_for_button = sprite_get_width(Spr_button_shop) + 30;
 	

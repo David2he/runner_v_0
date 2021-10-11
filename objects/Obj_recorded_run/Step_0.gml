@@ -6,4 +6,4 @@ if(instance_exists(Obj_menue)){
 	}
 }
 
-running_counter += Obj_pj.moovement_speed / room_speed;
+running_counter += Obj_pj.movement_speed / room_speed;

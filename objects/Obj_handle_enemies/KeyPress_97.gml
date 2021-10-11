@@ -1,1 +1,1 @@
-instance_create_depth(1100, 740, -1, Obj_golem);
+instance_create_depth(spawn_monster, 740, -1, Obj_golem);
