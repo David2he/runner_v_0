@@ -1,9 +1,3 @@
-prout = 0;
-bg_00 = layer_get_id("Background_00");
-id_bg_00  = layer_background_get_id(bg_00);
-
-
-
 close_against_player = false;
 reset_frame = false;
 hits_left = 0;
@@ -29,3 +23,13 @@ decrementor_speed_strong = 1/20;
 incrementor_speed_restart = 1/80;
 
 reduce_movement_speed = initial_movement_speed;
+bonus_early_flor_speed = -6;
+
+
+global.flor = 945;
+global.scale_ratio = 1.5;
+Obj_pj.image_xscale = global.scale_ratio;
+Obj_pj.image_yscale = global.scale_ratio;
+
+y = global.flor - (sprite_get_height(Spr_player_idle)*global.scale_ratio);
+show_debug_message(y);

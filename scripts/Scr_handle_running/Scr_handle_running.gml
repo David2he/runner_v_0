@@ -4,9 +4,6 @@
 function Scr_handle_running(){
 	var is_stopping = argument[0];
 	var run_speed = -Obj_pj.movement_speed / 10;
-	var bonus_early_flor_speed = -6;
-	flor_speed = (run_speed * 3) + bonus_early_flor_speed;
-	
 	if(is_stopping == false){
 		Obj_pj.sprite_index = Spr_player_run;
 	}

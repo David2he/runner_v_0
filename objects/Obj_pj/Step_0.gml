@@ -49,10 +49,18 @@ if(is_fighting){
 	Scr_handle_running(true);
 	if(movement_speed >= 0 && !is_running_back){
 			movement_speed = lerp(movement_speed, 0, reduce_movement_speed);
+			
 	}else if(movement_speed < 0){
 		is_running_back = true;
 		movement_speed = 0;
 	}
+	
+	if(bonus_early_flor_speed > 0){
+		bonus_early_flor_speed = lerp(bonus_early_flor_speed, 0, 0.1);
+	} else {
+		bonus_early_flor_speed = 0;
+	}
+	
 }else if (!is_fighting){
 	Scr_handle_running(false);
 	if(movement_speed < initial_movement_speed){
@@ -60,4 +68,16 @@ if(is_fighting){
 	} else if(movement_speed > initial_movement_speed){
 		movement_speed = initial_movement_speed;
 	}
+	
+	if(bonus_early_flor_speed < -6){
+		bonus_early_flor_speed = lerp(bonus_early_flor_speed, -6, 0.1);
+	} else {
+		bonus_early_flor_speed = -6;
+	}
 }
+
+
+
+y = global.flor - (sprite_get_height(Spr_player_idle)*global.scale_ratio);
+image_xscale = 	global.scale_ratio;
+image_yscale = global.scale_ratio;

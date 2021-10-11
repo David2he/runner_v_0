@@ -38,3 +38,8 @@ if(is_dead){
 	instance_destroy();
 
 }
+
+image_xscale = 	global.scale_ratio;
+image_yscale = global.scale_ratio;
+
+y = global.flor;

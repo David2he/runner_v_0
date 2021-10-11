@@ -11,3 +11,6 @@ if((Obj_pj.movement_speed/Obj_pj.initial_movement_speed) >= 0.1){
 	image_alpha -= 0.07;
 	if(image_alpha <= 0) instance_destroy();
 }
+
+image_xscale = 	global.scale_ratio;
+image_yscale = global.scale_ratio;

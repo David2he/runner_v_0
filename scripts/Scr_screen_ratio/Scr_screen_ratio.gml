@@ -26,13 +26,17 @@ function Scr_screen_ratio(){
 		layer_background_sprite(id_bg_04, Spr_bg_desert_05__1080);
 		layer_background_sprite(id_bg_05, Spr_bg_desert_04__1080);
 		
-		layer_y(id_bg_01, -210);
-		layer_y(id_bg_02, -210);
-		layer_y(id_bg_03, -210);
-		layer_y(id_bg_04, 0);
-		layer_y(id_bg_05, -210);
-		Obj_open_menue.x = (window_get_width() / 2) - (sprite_get_width(Spr_button_open_menue) / 2);
-		
+		layer_y(layer_get_id("Background_00"), 70);
+		layer_y(layer_get_id("Background_01"), -140);
+		layer_y(layer_get_id("Background_02"), -210);
+		layer_y(layer_get_id("Background_03"), -210);
+		layer_y(layer_get_id("Background_04"), 0);
+		layer_y(layer_get_id("Background_05"), -210);
+		global.flor = 945;
+		global.scale_ratio = 1.5;
+		display_set_gui_size(1920, 1080);
+		Scr_handle_instance_menu(true);
+			Obj_open_menue.is_open = false;
 	}else if (!ratio){
 		layer_background_sprite(id_bg_00, Spr_bg_desert_02__720);
 		layer_background_sprite(id_bg_01, Spr_bg_desert_00__720);
@@ -41,12 +45,17 @@ function Scr_screen_ratio(){
 		layer_background_sprite(id_bg_04, Spr_bg_desert_05__720);
 		layer_background_sprite(id_bg_05, Spr_bg_desert_04__720);
 		
-		layer_y(id_bg_00, -210);
-		layer_y(id_bg_01, 100);
-		layer_y(id_bg_02, 100);
-		layer_y(id_bg_03, 100);
-		layer_y(id_bg_04, 0);
-		layer_y(id_bg_05, 0);
-		Obj_open_menue.x = (window_get_width() / 2) - (sprite_get_width(Spr_button_open_menue) / 2);
+		layer_y(layer_get_id("Background_00"), 210);
+		layer_y(layer_get_id("Background_01"), 100);
+		layer_y(layer_get_id("Background_02"), 80);
+		layer_y(layer_get_id("Background_03"), 60);
+		layer_y(layer_get_id("Background_04"), 0);
+		layer_y(layer_get_id("Background_05"), 0);
+		global.scale_ratio = 1;
+		global.flor = 820;
+		display_set_gui_size(850, 900);
+		Scr_handle_instance_menu(true);
+		Obj_open_menue.is_open = false;
+	
 	}
 }

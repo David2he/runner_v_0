@@ -7,3 +7,4 @@ if(instance_exists(Obj_menue)){
 }
 
 running_counter += Obj_pj.movement_speed / room_speed;
+//x = (window_get_width() / 1.5) - (sprite_width / 2);
