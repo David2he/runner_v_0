@@ -23,7 +23,7 @@ if(sprite_index == hited_sprite){
 
 if(is_dead){
 	
-	Obj_create_loots.ammount_of_gold = irandom_range(4, 10);
+	Obj_create_loots.ammount_of_gold = irandom_range(20, 30);
 	Obj_create_loots.x_monster = x;
 	Obj_create_loots.y_monster = y;
 	Obj_create_loots.alarm[0] = 1;

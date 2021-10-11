@@ -16,17 +16,17 @@ if(!player_take_it){
 		var _distance = _end - _start;
 		x = lerp(x, x_goal, Obj_create_loots.speedd);
 		y = _start + (_distance * position);
-	}else{
-		x -= Obj_pj.moovement_speed * 6;
+	}else if (Obj_pj.moovement_speed > 0.5){
+		x -=  4;
 	}
 } else {
 	y = lerp(y, -20, 0.07);
 	x = lerp(x, room_width/2, 0.07);
 }
 
-if(miss_it){
-	y = lerp(y, -20, 0.07);
-	x = lerp(x, room_width/2, 0.07);
+if(miss_it || x < -10){
+	y = lerp(y, -20, 0.5);
+	x = lerp(x, room_width/2, 0.5);
 }
 
 
