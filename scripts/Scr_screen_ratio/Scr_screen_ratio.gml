@@ -41,12 +41,12 @@ function Scr_screen_ratio(){
 		layer_background_sprite(id_bg_04, Spr_bg_desert_05__720);
 		layer_background_sprite(id_bg_05, Spr_bg_desert_04__720);
 		
-		
-		layer_y(id_bg_01, -210);
-		layer_y(id_bg_02, -210);
-		layer_y(id_bg_03, -210);
+		layer_y(id_bg_00, 210);
+		layer_y(id_bg_01, 100);
+		layer_y(id_bg_02, 100);
+		layer_y(id_bg_03, 100);
 		layer_y(id_bg_04, 0);
-		layer_y(id_bg_05, -210);
+		layer_y(id_bg_05, 0);
 		
 	}
 }
