@@ -6,7 +6,6 @@ function Scr_handle_running(){
 	var run_speed = -Obj_pj.movement_speed / 10;
 	var bonus_early_flor_speed = -6;
 	flor_speed = (run_speed * 3) + bonus_early_flor_speed;
-	show_debug_message(flor_speed);
 	
 	if(is_stopping == false){
 		Obj_pj.sprite_index = Spr_player_run;
@@ -18,5 +17,6 @@ function Scr_handle_running(){
 		layer_hspeed("Background_03", run_speed *  0.5);
 		layer_hspeed("Background_04", run_speed *  0.25);
 		layer_hspeed("Background_05", run_speed *  0.08);
+
 		
 }
