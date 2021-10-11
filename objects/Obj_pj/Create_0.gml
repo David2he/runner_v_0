@@ -1,3 +1,8 @@
+prout = 0;
+bg_00 = layer_get_id("Background_00");
+id_bg_00  = layer_background_get_id(bg_00);
+
+
 
 close_against_player = false;
 reset_frame = false;

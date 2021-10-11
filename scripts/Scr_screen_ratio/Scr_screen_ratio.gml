@@ -31,9 +31,9 @@ function Scr_screen_ratio(){
 		layer_y(id_bg_03, -210);
 		layer_y(id_bg_04, 0);
 		layer_y(id_bg_05, -210);
+		Obj_open_menue.x = (window_get_width() / 2) - (sprite_get_width(Spr_button_open_menue) / 2);
 		
-		
-	}else {
+	}else if (!ratio){
 		layer_background_sprite(id_bg_00, Spr_bg_desert_02__720);
 		layer_background_sprite(id_bg_01, Spr_bg_desert_00__720);
 		layer_background_sprite(id_bg_02, Spr_bg_desert_01__720);
@@ -41,12 +41,12 @@ function Scr_screen_ratio(){
 		layer_background_sprite(id_bg_04, Spr_bg_desert_05__720);
 		layer_background_sprite(id_bg_05, Spr_bg_desert_04__720);
 		
-		layer_y(id_bg_00, 210);
+		layer_y(id_bg_00, -210);
 		layer_y(id_bg_01, 100);
 		layer_y(id_bg_02, 100);
 		layer_y(id_bg_03, 100);
 		layer_y(id_bg_04, 0);
 		layer_y(id_bg_05, 0);
-		
+		Obj_open_menue.x = (window_get_width() / 2) - (sprite_get_width(Spr_button_open_menue) / 2);
 	}
 }
