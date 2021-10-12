@@ -6,8 +6,11 @@ is_blocking = false;
 hitted = false;
 color_blend = c_white;
 
-//max_time = 40;
-//time = max_time;
-//time_allowed = false;
+resize_screen = false;
+
+image_xscale = 	global.scale_ratio;
+image_yscale = global.scale_ratio;
+y = global.flor;
+
 
 

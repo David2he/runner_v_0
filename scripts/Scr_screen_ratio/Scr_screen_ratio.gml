@@ -2,7 +2,7 @@
 function Scr_screen_ratio(){
 	
 	var ratio = argument[0];
-	
+	var spawn_monster = 0;
 	var bg_00 = layer_get_id("Background_00");
 	var bg_01 = layer_get_id("Background_01");
 	var bg_02 = layer_get_id("Background_02");
@@ -32,11 +32,12 @@ function Scr_screen_ratio(){
 		layer_y(layer_get_id("Background_03"), -210);
 		layer_y(layer_get_id("Background_04"), 0);
 		layer_y(layer_get_id("Background_05"), -210);
+		
 		global.flor = 945;
 		global.scale_ratio = 1.5;
 		display_set_gui_size(1920, 1080);
-		Scr_handle_instance_menu(true);
-			Obj_open_menue.is_open = false;
+		spawn_monster = 1920;
+		
 	}else if (!ratio){
 		layer_background_sprite(id_bg_00, Spr_bg_desert_02__720);
 		layer_background_sprite(id_bg_01, Spr_bg_desert_00__720);
@@ -51,11 +52,22 @@ function Scr_screen_ratio(){
 		layer_y(layer_get_id("Background_03"), 60);
 		layer_y(layer_get_id("Background_04"), 0);
 		layer_y(layer_get_id("Background_05"), 0);
+		
 		global.scale_ratio = 1;
 		global.flor = 820;
 		display_set_gui_size(850, 900);
-		Scr_handle_instance_menu(true);
-		Obj_open_menue.is_open = false;
-	
+		spawn_monster = 850;
 	}
+	
+		Obj_open_menue.is_open = false;
+		if(instance_exists(Obj_loots)){
+			Obj_loots.is_out_the_room = true;
+		}
+		if(instance_exists(Obj_monster_PARENT)){
+			Obj_monster_PARENT.resize_screen = true;
+			Obj_monster_PARENT.x = spawn_monster;
+			
+		}
+		Scr_handle_instance_menu(true);
+		
 }

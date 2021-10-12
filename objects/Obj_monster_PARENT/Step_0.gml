@@ -39,7 +39,11 @@ if(is_dead){
 
 }
 
-image_xscale = 	global.scale_ratio;
-image_yscale = global.scale_ratio;
+if(resize_screen){
+	image_xscale = 	global.scale_ratio;
+	image_yscale = global.scale_ratio;
+	y = global.flor;
+	//resize_screen = false;
+}
 
-y = global.flor;
+

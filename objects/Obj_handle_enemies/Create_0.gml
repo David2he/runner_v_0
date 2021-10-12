@@ -1,1 +1,1 @@
-spawn_monster = room_width + 100;
+spawn_monster = window_get_width() + 50;

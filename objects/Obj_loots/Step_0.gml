@@ -19,7 +19,7 @@ if(!player_take_it){
 	}
 } else {
 	y = lerp(y, -20, 0.07);
-	x = lerp(x, room_width/2, 0.07);
+	x = lerp(x, window_get_width()/2, 0.07);
 }
 
 if(x < -10 && stop){
@@ -28,7 +28,7 @@ if(x < -10 && stop){
 
 if(is_out_the_room){
 	y = lerp(y, -20, 0.07);
-	x = lerp(x, room_width/2, 0.07);
+	x = lerp(x, window_get_width()/2, 0.07);
 }
 
 if(x == room_width/2 || y < 0){
