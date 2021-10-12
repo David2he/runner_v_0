@@ -12,8 +12,7 @@ if(instance_exists(Obj_monster_PARENT) && close_against_player){
 		combo = 1;
 	}
 		
-		
-	
+
 	switch(combo){
 		case 0:
 			reduce_movement_speed = decrementor_speed_little;
@@ -39,7 +38,6 @@ if(instance_exists(Obj_monster_PARENT) && close_against_player){
 } else if (!close_against_player && image_index >= image_number-1){
 	is_fighting = false;
 	reset_frame = true;
-	count_enemies_cac = 0;
 	is_running_back = false;
 }
 
@@ -76,6 +74,7 @@ if(is_fighting){
 	}
 }
 
+running_counter += Obj_pj.movement_speed / room_speed;
 
 
 y = global.flor - (sprite_get_height(Spr_player_idle)*global.scale_ratio);

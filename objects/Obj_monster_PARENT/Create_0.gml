@@ -2,7 +2,6 @@ hp = max_hp;
 is_dead = false;
 is_close_to_player = false;
 y = 818;
-is_blocking = false;
 hitted = false;
 color_blend = c_white;
 

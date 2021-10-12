@@ -3,9 +3,6 @@ if(!is_close_to_player){
 	sprite_index = running_sprite;
 }else if (!is_dead){
 	sprite_index = idle_sprite;
-	if(!is_blocking){
-		alarm[0] = 1;
-	}
 }
 
 if(hitted){
@@ -29,10 +26,6 @@ if(is_dead){
 	Obj_create_loots.alarm[0] = 1;
 	monster_dead = instance_create_depth(x,y,depth, Obj_dead_sprite)
 	monster_dead.sprite_index = dead_sprite
-	
-	if(is_close_to_player){
-		Obj_pj.count_enemies_cac --;
-	}
 	Obj_pj.alternate_att_run = !Obj_pj.alternate_att_run;
 	is_dead = !is_dead;
 	instance_destroy();

@@ -66,8 +66,11 @@ function Scr_screen_ratio(){
 		if(instance_exists(Obj_monster_PARENT)){
 			Obj_monster_PARENT.resize_screen = true;
 			Obj_monster_PARENT.x = spawn_monster;
-			
+			Obj_monster_PARENT.is_close_to_player = false;
 		}
 		Scr_handle_instance_menu(true);
+		Obj_pj.close_against_player = false;
+		Obj_pj.combo = 1;
+		
 		
 }
