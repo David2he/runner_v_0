@@ -1,19 +1,11 @@
 draw_self();
 draw_set_font(Font_lighter);
 
-draw_set_halign(fa_left);
-draw_text(x + 15, y + 100, "Dammage");
-draw_text(x + 15, y + 120, "Move speed");
-
-
-//for(i = 1; i < 10; i++){
-//	draw_text(x + 15, y + 120 + 20 * i, "Move speed");
-//}
-
-draw_set_halign(fa_right);
-draw_text((x + sprite_width) - 15, y + 100, "20");
-draw_text((x + sprite_width) - 15, y + 120, string(Obj_pj.moovement_speed));
-
-
+for(stats_loop = 0; stats_loop < array_length(all_displayable_stats); stats_loop++){
+	draw_set_halign(fa_left);
+	draw_text(x + 15, initial_y_draw_stats + (20* stats_loop), all_displayable_stats[stats_loop][0]);
+	draw_set_halign(fa_right);
+	draw_text(x + sprite_width - 15, initial_y_draw_stats + (20* stats_loop), all_displayable_stats[stats_loop][1]);
+}
 
 draw_set_font(Font_base);

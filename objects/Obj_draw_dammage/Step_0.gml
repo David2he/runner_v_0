@@ -2,10 +2,10 @@ if(!down_animation){
 	y = lerp(y,  ystart - 200, 0.1);
 	size_supp += 0.1;
 }else{
-	y = lerp(y,  ystart + 400, 0.1);
+	y = lerp(y,  ystart + 400, 0.02);
 
 	if(size_supp >= (0 - 0.07)){	
-		size_supp -= 0.18;
+		size_supp -= 0.14;
 	}
 }
 
