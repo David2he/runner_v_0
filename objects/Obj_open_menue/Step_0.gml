@@ -11,3 +11,5 @@ if(destroy_menue && instance_exists(Obj_menue)){
 		Scr_handle_instance_menu(true);
 	}
 }
+
+x = (window_get_width() / 2) - (sprite_width / 2);

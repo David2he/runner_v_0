@@ -1,4 +1,2 @@
-instance_create_depth(1100, 740, -1, Obj_mandrake);
-//monster = instance_create_depth(1100, 740, -1, Obj_mandrake);
-//monster.max_hp = hp_set_monster;
-//monster.hp = monster.max_hp;
+spawn_monster = window_get_width() + 50;
+instance_create_depth(spawn_monster, 740, -1, Obj_mandrake);

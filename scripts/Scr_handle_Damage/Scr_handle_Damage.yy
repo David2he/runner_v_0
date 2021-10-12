@@ -3,7 +3,7 @@
   "isCompatibility": false,
   "parent": {
     "name": "FIGHT",
-    "path": "folders/AAAA/Scripts/FIGHT.yy",
+    "path": "folders/AAAA/SCRIPTS/FIGHT.yy",
   },
   "resourceVersion": "1.0",
   "name": "Scr_handle_damage",
