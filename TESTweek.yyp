@@ -65,6 +65,7 @@
     {"id":{"name":"Obj_monster_PARENT","path":"objects/Obj_monster_PARENT/Obj_monster_PARENT.yy",},"order":0,},
     {"id":{"name":"Spr_golem_die","path":"sprites/Spr_golem_die/Spr_golem_die.yy",},"order":2,},
     {"id":{"name":"Spr_bg_desert_05__720","path":"sprites/Spr_bg_desert_05__720/Spr_bg_desert_05__720.yy",},"order":4,},
+    {"id":{"name":"AnimationCurve2","path":"animcurves/AnimationCurve2/AnimationCurve2.yy",},"order":1,},
     {"id":{"name":"Spr_golem_run","path":"sprites/Spr_golem_run/Spr_golem_run.yy",},"order":0,},
     {"id":{"name":"lots_and_lots_and_lots_of_colors","path":"scripts/lots_and_lots_and_lots_of_colors/lots_and_lots_and_lots_of_colors.yy",},"order":2,},
     {"id":{"name":"Obj_handle_enemies","path":"objects/Obj_handle_enemies/Obj_handle_enemies.yy",},"order":1,},

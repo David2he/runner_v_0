@@ -5,7 +5,7 @@ function Scr_handle_damage(){
 	
 	var calcul_crit = Obj_pj.crit_rate;
 	var is_a_crit = false;
-	var color = c_beer;
+	var color = c_white;
 	//show_debug_message(target);
 	
 	if((random_range(0,1) <= calcul_crit) || (Obj_pj.will_be_a_crit)){
