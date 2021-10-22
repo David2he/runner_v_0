@@ -1,5 +1,5 @@
 if((Obj_pj.movement_speed/Obj_pj.initial_movement_speed) >= 0.1){
-	x -= 3;
+	x += global.flor_speed;
 	if(image_index >= image_number - 1){
 		image_index = image_number - 1;
 	}
@@ -14,4 +14,4 @@ if((Obj_pj.movement_speed/Obj_pj.initial_movement_speed) >= 0.1){
 
 image_xscale = 	global.scale_ratio;
 image_yscale = global.scale_ratio;
-y = global.flor;
+y = global.flor_height;

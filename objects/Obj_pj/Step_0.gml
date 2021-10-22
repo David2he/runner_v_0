@@ -1,7 +1,14 @@
+y = global.flor_height - (sprite_get_height(Spr_player_idle)*global.scale_ratio);
+x = (window_get_width() / 3) - sprite_width;
+image_xscale = 	global.scale_ratio;
+image_yscale = global.scale_ratio;
+
+
+
+
 if(instance_exists(Obj_monster_PARENT) && close_against_player){
 		first_attack = damage + movement_speed/5;
 		first_attack_critted = (damage + movement_speed/5) * crit_bonus_damage
-		
 
 	if(will_be_a_crit && first_attack_critted < Obj_monster_PARENT.max_hp && combo == 0){
 		combo = 1;
@@ -77,6 +84,6 @@ if(is_fighting){
 running_counter += Obj_pj.movement_speed / room_speed;
 
 
-y = global.flor - (sprite_get_height(Spr_player_idle)*global.scale_ratio);
-image_xscale = 	global.scale_ratio;
-image_yscale = global.scale_ratio;
+
+
+

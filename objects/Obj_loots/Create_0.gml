@@ -19,7 +19,7 @@ if(random_rotate_x_y == 0){
 	x_goal = xstart - (random_range(100, -800));
 	rotate_sprite = irandom_range(4, 6);
 }
-yTop = random_range(100, 300)
+y_goals = random_range(100, 300)
 
 image_xscale = 	global.scale_ratio;
 image_yscale = global.scale_ratio;

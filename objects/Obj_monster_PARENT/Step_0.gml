@@ -1,5 +1,5 @@
 if(!is_close_to_player){
-	x -= 4;
+	x += global.flor_speed - 3;
 	sprite_index = running_sprite;
 }else if (!is_dead){
 	sprite_index = idle_sprite;
@@ -35,8 +35,7 @@ if(is_dead){
 if(resize_screen){
 	image_xscale = 	global.scale_ratio;
 	image_yscale = global.scale_ratio;
-	y = global.flor;
+	y = global.flor_height;
 	//resize_screen = false;
 }
-
 

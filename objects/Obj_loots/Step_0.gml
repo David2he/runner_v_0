@@ -8,15 +8,14 @@ if(!player_take_it){
 		image_angle += rotate_sprite;
 		position = animcurve_channel_evaluate(curve, percent);
 
-		var _start = ystart;
-		var _end = ystart - yTop;
+		var _start = global.flor_height;
+		var _end = global.flor_height - y_goals;
 
 		var _distance = _end - _start;
 		x = lerp(x, x_goal, Obj_create_loots.speedd);
 		y = _start + (_distance * position);
-	}else if (Obj_pj.movement_speed > 0.5){
-		x -=  4;
 	}
+	x += global.flor_speed;
 } else {
 	y = lerp(y, -20, 0.07);
 	x = lerp(x, window_get_width()/2, 0.07);

@@ -33,7 +33,7 @@ function Scr_screen_ratio(){
 		layer_y(layer_get_id("Background_04"), 0);
 		layer_y(layer_get_id("Background_05"), -210);
 		
-		global.flor = 945;
+		global.flor_height = 945;
 		global.scale_ratio = 1.5;
 		display_set_gui_size(1920, 1080);
 		spawn_monster = 1920;
@@ -54,7 +54,7 @@ function Scr_screen_ratio(){
 		layer_y(layer_get_id("Background_05"), 0);
 		
 		global.scale_ratio = 1;
-		global.flor = 820;
+		global.flor_height = 820;
 		display_set_gui_size(850, 900);
 		spawn_monster = 850;
 	}

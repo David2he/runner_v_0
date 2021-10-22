@@ -9,7 +9,7 @@ resize_screen = false;
 
 image_xscale = 	global.scale_ratio;
 image_yscale = global.scale_ratio;
-y = global.flor;
+y = global.flor_height;
 
 
 

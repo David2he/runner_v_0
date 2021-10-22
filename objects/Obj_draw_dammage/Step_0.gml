@@ -30,8 +30,6 @@ if(percent > 1){
 	var _size_end = 2;
 	var size = _size_end - _size_start;
 	
-	show_debug_message(size_supp);
-	
 	y = _start + (_distance * position);
 	size_supp = _size_start + (size * position);
 
